@@ -6,14 +6,33 @@
     z-index: -1;
 }
 
+ 
+/*  BARRA DE NAVEGACION  */
 .navbar {
     background-image: linear-gradient(to right, #0a0a0a, #0f0e14, #13111b, #161422, #181729, #191830, #191837, #19193e, #171746, #14154f, #121357, #0f0f5f);
 } 
+.navbar-collapse {
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item {
+    padding-inline: 30px;
+
+}
+
 .nav-link {
     color: wheat;
 }
+
+.nav-link:hover {
+    transition: 0.3s;
+    color: white;
+
+}
 .logo { 
-    max-height: 100px;
+    width: 80px;
+    /* max-height: 100px; */
 }
 .navbar-brand {
     color: white;
